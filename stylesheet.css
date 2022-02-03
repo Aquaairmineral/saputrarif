@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Courier New";
+    
+    
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #782fff;
+    color: rgb(255, 255, 255);
+    height: 90px;
+  }  
+  
+  .header-logo {
+    float: left;
+    padding: 27px 27px;
+    font-size: 27px;
+    font-family: Segoe Script;
+
+  }
+  
+  .header-list li {
+    float:right;
+    padding: 27px 27px;
+    font-size: 24px;
+    color: white;
+  }
+
+
+  
+  .container {
+    max-width: 2000px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .top-wrapper {
+    padding: 10px 10px 0;
+    background-image: url(https://wallpaperaccess.com/full/84248.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }  
+
+  .signup {
+    background-color: #00ffb3;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 7px #ffffff;
+    color: rgb(255, 0, 0);
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.836);
+  }
+
+
+
